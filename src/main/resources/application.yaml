@@ -1,0 +1,8 @@
+server:
+  port: 9091
+
+grpc:
+  client:
+    stock-quote-provider:
+      address: static://localhost:9090
+      negotiationType: plaintext
